@@ -1,0 +1,38 @@
+Docker version:
+
+ubuntu@ip-172-31-45-20:~/Dockerlib$ sudo docker version
+Client:
+ Version:           24.0.5
+ API version:       1.43
+ Go version:        go1.20.8
+ Git commit:        ced0996
+ Built:             Sat Oct  7 00:14:00 2023
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server:
+ Engine:
+  Version:          24.0.5
+  API version:      1.43 (minimum version 1.12)
+  Go version:       go1.20.8
+  Git commit:       a61e2b4
+  Built:            Sat Oct  7 00:14:30 2023
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v1.6.21
+  GitCommit:        3dce8eb055cbb6872793272b4f20ed16117344f8
+ runc:
+  Version:          1.1.7
+  GitCommit:        
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+Docker-compose
+ubuntu@ip-172-31-45-20:~/Dockerlib$ sudo docker-compose version
+Docker Compose version v2.20.3
+ubuntu@ip-172-31-45-20:~/Dockerlib$ sudo docker-compose up
+[+] Running 2/0
+ ✔ Container dockerlib-web-1  Running                                                                                                       0.0s 
+ ✔ Container dockerlib-db-1   Running                                                                                                       0.0s 
+Attaching to dockerlib-db-1, dockerlib-web-1
